@@ -23,10 +23,10 @@ namespace IterationStatements
             do
             {
                 // Increment num by 1
-
+                num++;
                 // Then add num to the collection - numbers
                 // Hint: reference num inside of the Add method's parentheses
-                numbers.Add(num++);
+                numbers.Add(num);
 
             } // <---- While your variable is less than 100
             while (num < 100);
